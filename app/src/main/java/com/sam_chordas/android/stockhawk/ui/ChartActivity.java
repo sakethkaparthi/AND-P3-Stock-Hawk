@@ -35,7 +35,7 @@ public class ChartActivity extends Activity implements LoaderManager.LoaderCallb
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_line_graph);
         chart = (LineChart) findViewById(R.id.chart);
-        chart.setDescription("Past stock quote data");
+        chart.setDescription(getResources().getString(R.string.past_stock));
         chart.setDescriptionTextSize(10f);
         chart.setDescriptionColor(ContextCompat.getColor(this, R.color.gold));
         chart.getLegend().setTextColor(ContextCompat.getColor(this, R.color.gold));
