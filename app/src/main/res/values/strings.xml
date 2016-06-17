@@ -12,4 +12,7 @@
     <string name="network_toast">Uh-oh! This app requires an internet connection</string>
     <string name="add_stock">Add new Stock</string>
     <string name="past_stock">Past Stock data</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="failed_to_add">Failed to add stock. Did you spell it right? Or does it exist?</string>
 </resources>
